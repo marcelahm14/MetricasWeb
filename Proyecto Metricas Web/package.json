@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.4.2",
+    "cypress": "^13.16.1"
+  },
+  "dependencies": {
+    "web-vitals": "^4.2.4"
+  }
+}
