@@ -1,34 +1,34 @@
 [
   {
     "screenEmulation": "Moto G (412x823)",
-    "timestamp": "2024-12-15T15:18:50.528Z",
-    "first-contentful-paint": 4493.105,
-    "largest-contentful-paint": 7709.853,
-    "speed-index": 6412,
-    "performance": 36
+    "timestamp": "2024-12-17T21:25:06.507Z",
+    "firstContentfulPaint": "5.8 s",
+    "largestContentfulPaint": "9.4 s",
+    "speedIndex": "7.9 s",
+    "performance": 31
   },
   {
     "screenEmulation": "Escritorio 1350x940 (1350x940)",
-    "timestamp": "2024-12-15T15:19:29.344Z",
-    "first-contentful-paint": 4482.797,
-    "largest-contentful-paint": 5116.134,
-    "speed-index": 6223,
-    "performance": 48
-  },
-  {
-    "screenEmulation": "iPhone 14 Pro Max (430x932)",
-    "timestamp": "2024-12-15T15:20:06.288Z",
-    "first-contentful-paint": 4340.415,
-    "largest-contentful-paint": 7057.04,
-    "speed-index": 6309,
+    "timestamp": "2024-12-17T21:25:47.193Z",
+    "firstContentfulPaint": "4.4 s",
+    "largestContentfulPaint": "5.2 s",
+    "speedIndex": "6.4 s",
     "performance": 39
   },
   {
+    "screenEmulation": "iPhone 14 Pro Max (430x932)",
+    "timestamp": "2024-12-17T21:26:27.031Z",
+    "firstContentfulPaint": "4.4 s",
+    "largestContentfulPaint": "7.4 s",
+    "speedIndex": "6.5 s",
+    "performance": 30
+  },
+  {
     "screenEmulation": "Escritorio 1920x1080 (1920x1080)",
-    "timestamp": "2024-12-15T15:20:44.154Z",
-    "first-contentful-paint": 4447.389,
-    "largest-contentful-paint": 5097.389,
-    "speed-index": 6257,
-    "performance": 51
+    "timestamp": "2024-12-17T21:27:09.071Z",
+    "firstContentfulPaint": "4.4 s",
+    "largestContentfulPaint": "5.2 s",
+    "speedIndex": "6.4 s",
+    "performance": 43
   }
 ]
