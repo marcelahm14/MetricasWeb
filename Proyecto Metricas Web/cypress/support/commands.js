@@ -35,7 +35,6 @@ Cypress.Commands.add('ensureFileExists', (filepath) => {
 Cypress.Commands.add('runLighthouseOnDevice', (device, urlPagina) => {
     const command = `lighthouse ${urlPagina} ` +
         `--output json ` +
-        `--output-path cypress/fixtures/reports/lighthouse-report-${device.name.replace(/\s+/g, '_')}.json ` +
         `--emulated-form-factor ${device.formFactor} ` +
         `--throttling-method=devtools ` +
         `--chrome-flags='--headless --disable-gpu' ` +
@@ -43,12 +42,13 @@ Cypress.Commands.add('runLighthouseOnDevice', (device, urlPagina) => {
         `--screenEmulation.height=${device.height} ` +
         `--screenEmulation.deviceScaleFactor=${device.deviceScaleFactor}`;
 
-    return cy.exec(command).then((result) => {
-        expect(result.code).to.equal(0);
-
-        const reportPath = `cypress/fixtures/reports/lighthouse-report-${device.name.replace(/\s+/g, '_')}.json`;
-
-        return cy.readFile(reportPath);
+        return cy.exec(command, { failOnNonZeroExit: false }).then((result) => {
+            // Verifica que el comando se ejecutó correctamente
+            expect(result.code).to.equal(0);
+    
+            // Parsear el JSON del stdout de Lighthouse
+            const json = JSON.parse(result.stdout);
+            return json;
     });
 });
 

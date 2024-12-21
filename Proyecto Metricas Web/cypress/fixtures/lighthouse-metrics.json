@@ -1,34 +1,66 @@
 [
   {
     "screenEmulation": "Moto G (412x823)",
-    "timestamp": "2024-12-17T21:25:06.507Z",
-    "firstContentfulPaint": "5.8 s",
-    "largestContentfulPaint": "9.4 s",
-    "speedIndex": "7.9 s",
-    "performance": 31
-  },
-  {
-    "screenEmulation": "Escritorio 1350x940 (1350x940)",
-    "timestamp": "2024-12-17T21:25:47.193Z",
-    "firstContentfulPaint": "4.4 s",
-    "largestContentfulPaint": "5.2 s",
-    "speedIndex": "6.4 s",
-    "performance": 39
+    "timestamp": "2024-12-21T00:27:07.279Z",
+    "firstContentfulPaint": "4.9 s",
+    "largestContentfulPaint": "8.7 s",
+    "speedIndex": "7.3 s",
+    "performance": 27
   },
   {
     "screenEmulation": "iPhone 14 Pro Max (430x932)",
-    "timestamp": "2024-12-17T21:26:27.031Z",
-    "firstContentfulPaint": "4.4 s",
-    "largestContentfulPaint": "7.4 s",
-    "speedIndex": "6.5 s",
-    "performance": 30
+    "timestamp": "2024-12-21T00:27:45.473Z",
+    "firstContentfulPaint": "4.3 s",
+    "largestContentfulPaint": "7.0 s",
+    "speedIndex": "6.2 s",
+    "performance": 33
+  },
+  {
+    "screenEmulation": "Escritorio 1350x940 (1350x940)",
+    "timestamp": "2024-12-21T00:28:24.727Z",
+    "firstContentfulPaint": "4.3 s",
+    "largestContentfulPaint": "5.1 s",
+    "speedIndex": "6.2 s",
+    "performance": 43
   },
   {
     "screenEmulation": "Escritorio 1920x1080 (1920x1080)",
-    "timestamp": "2024-12-17T21:27:09.071Z",
+    "timestamp": "2024-12-21T00:29:03.823Z",
+    "firstContentfulPaint": "4.4 s",
+    "largestContentfulPaint": "5.1 s",
+    "speedIndex": "6.3 s",
+    "performance": 46
+  },
+  {
+    "screenEmulation": "Moto G (412x823)",
+    "timestamp": "2024-12-21T00:34:04.366Z",
+    "firstContentfulPaint": "4.4 s",
+    "largestContentfulPaint": "7.8 s",
+    "speedIndex": "6.4 s",
+    "performance": 32
+  },
+  {
+    "screenEmulation": "iPhone 14 Pro Max (430x932)",
+    "timestamp": "2024-12-21T00:34:42.792Z",
+    "firstContentfulPaint": "4.3 s",
+    "largestContentfulPaint": "9.0 s",
+    "speedIndex": "7.3 s",
+    "performance": 30
+  },
+  {
+    "screenEmulation": "Escritorio 1350x940 (1350x940)",
+    "timestamp": "2024-12-21T00:35:22.711Z",
     "firstContentfulPaint": "4.4 s",
     "largestContentfulPaint": "5.2 s",
-    "speedIndex": "6.4 s",
-    "performance": 43
+    "speedIndex": "6.3 s",
+    "performance": 42
+  },
+  {
+    "screenEmulation": "Escritorio 1920x1080 (1920x1080)",
+    "timestamp": "2024-12-21T00:36:01.886Z",
+    "firstContentfulPaint": "4.4 s",
+    "largestContentfulPaint": "5.0 s",
+    "speedIndex": "6.1 s",
+    "performance": 48
   }
 ]
